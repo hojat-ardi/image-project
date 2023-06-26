@@ -16,11 +16,7 @@ logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
 formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
 # Please Create a folder named results in the root directory of the project for saving the results in results.log
-<<<<<<< HEAD:ImageProject-master/phase1/Eliminating_of_average_pooling/test/test_avgpool.py
-file_handler = logging.FileHandler('/content/ML_Graduate_Project_TA/Phase_1/resultsresults.log')
-=======
-file_handler = logging.FileHandler('/content/image-project/ImageProject-master/phase1/Default/test/results.log')
->>>>>>> d388c5d9eaa9b4249324d97dae7e470f219c37c1:ImageProject-master/phase1/Default/test/test.py
+file_handler = logging.FileHandler('/content/ML_Graduate_Project_TA/Phase_1/results/results.log')
 file_handler.setLevel(logging.INFO)
 file_handler.setFormatter(formatter)
 logger.addHandler(file_handler)
